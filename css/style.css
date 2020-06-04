@@ -138,11 +138,11 @@ input[type="checkbox"]:checked + label::after {
   width: 12px;
 }
 input[type="checkbox"]:checked + label:hover {
-  border-color: coral;
+  border-color: #1f9bd7;
 }
 input[type="checkbox"]:checked + label:hover::before,
 input[type="checkbox"]:checked + label:hover::after {
-  background: coral;
+  background: #1f9bd7;
 }
 input[type="checkbox"]:checked ~ .navbar-collapse > .navbar-nav::before {
   opacity: 1;
@@ -185,7 +185,7 @@ input[type="checkbox"]:checked
 }
 label {
   background: none transparent;
-  border: 4px solid coral;
+  border: 4px solid #1f9bd7;
   border-left: 0 solid transparent;
   border-right: 0 solid transparent;
   cursor: pointer;
@@ -199,7 +199,7 @@ label {
   z-index: 100;
 }
 label::before {
-  background: coral;
+  background: #1f9bd7;
   content: "";
   height: 4px;
   left: 0;
@@ -209,7 +209,7 @@ label::before {
   transition: all 0.2s;
 }
 label::after {
-  background: coral;
+  background: #1f9bd7;
   content: "";
   height: 4px;
   left: 0;
