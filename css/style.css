@@ -2,6 +2,8 @@
   padding: 0;
   background: #093c77;
 }
+
+
 .navbar-brand {
   margin: 0;
   padding: 10px 22px;
@@ -30,6 +32,7 @@
 .nav-item {
   padding: 10px 0;
   font-size: 20px;
+  display: block;
 }
 .nav-link {
   color: #fff;
@@ -89,10 +92,13 @@ button:focus {
         display: none;
         visibility: hidden;
     }
-    #navbar{
+    #navbar-url{
         display: flex;
         flex-direction: row;
         visibility: visible;
+        position: relative;
+        top: 20px;
+        left: 15px;
     }
 }
 
@@ -109,8 +115,8 @@ button:focus {
   transition: all 0.3s;
 }
 .nav-item {
-  opacity: 0;
-  visibility: hidden;
+  opacity: 1;
+  /* visibility: hidden; */
   transform: translateY(-20px);
   transition: all 0.3s;
 }
@@ -154,10 +160,10 @@ input[type="checkbox"]:checked + label::after {
   transform: rotate(90deg);
 
 }
-input[type="checkbox"]:checked ~ .navbar-collapse > .navbar-nav::before {
+/* input[type="checkbox"]:checked ~ .navbar-collapse > .navbar-nav::before {
   opacity: 1;
   visibility: visible;
-}
+} */
 input[type="checkbox"]:checked ~ .navbar-collapse > .navbar-nav li {
   opacity: 1;
   visibility: visible;
