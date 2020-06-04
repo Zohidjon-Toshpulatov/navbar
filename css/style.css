@@ -84,7 +84,7 @@ button:focus {
 
 .navbar-nav::before {
   content: "";
-  height: 100vh;
+  /* height: 100vh; */
   left: 0;
   top: 0;
   position: absolute;
